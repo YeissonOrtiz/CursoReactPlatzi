@@ -1,0 +1,15 @@
+.todo__button-create{
+  padding: 10px;
+  width: 150px;
+  background-color: rgb(51, 170, 0);
+  border: none;
+  border-radius: 10px;
+  margin: 0 auto;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.opened{
+  z-index: 1;
+}

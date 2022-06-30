@@ -1,0 +1,10 @@
+.todo__item-completed .svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #ffffff;
+}
+
+.icon__delete:hover{
+  transform: rotate(360deg);
+  transition-duration: 0.2s;
+}

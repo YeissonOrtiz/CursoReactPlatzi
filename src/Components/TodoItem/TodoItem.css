@@ -1,0 +1,26 @@
+.todo__item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  list-style-type: none;
+  width: 80%;
+  border-radius: 10px;
+  margin: 10px auto;
+  color: black;
+  background-color: #ffffff;
+  font-weight: bold;
+}
+
+.todo__item, .todo__item-text{
+  color: black;
+  user-select: none;
+}
+
+.todo__item-completed{
+  background-color: rgb(51, 170, 0);
+  color: white;
+  text-decoration: line-through;
+  font-weight: normal;
+}
