@@ -14,7 +14,6 @@ function AppUI(){
     loading,
     error,
     todosFilter,
-    toggleCompleteTodo,
     deleteTodo,
     openModal,
     setOpenModal
